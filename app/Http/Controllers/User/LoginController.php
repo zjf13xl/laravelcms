@@ -29,7 +29,7 @@ class LoginController extends Controller
     *******************************************/
      public function login(Request $request)
     {
-    	$website['title']=trans('login.name');
+    	/*$website['title']=trans('login.name');
         $website['login_name']=trans('login.name');
         $website['website_center_tip']=trans('admin.website_center_tip');
     	$website['copyrights']=trans('admin.website_name').trans('admin.website_rightinfo');
@@ -39,7 +39,8 @@ class LoginController extends Controller
 		$root['syskeywords']=@$root['syskeywords']?@$root['syskeywords']:"";
 		$root['sysdescription']=@$root['sysdescription']?@$root['sysdescription']:"";
         $website['root']=$root;
-        return view('user/login')->with('website',$website);
+        return view('user/login')->with('website',$website);*/
+        echo 121221;
     }
     /******************************************
     ****@AuThor : rubbish.boy@163.com
